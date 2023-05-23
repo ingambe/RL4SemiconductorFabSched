@@ -61,3 +61,18 @@ python train_es.py --dataset <HVLM or LVHM> --days 180 --sigma 0.005 --alpha 0.0
 
 Training can take multiple days, but in the end, you will get a Pytorch pre-trained.pt` file containing the weights of the pre-trained network.
 You then have to rename it `pretrained_HVLM.pt` or `pretrained_LVHM.pt` to replace the original pre-train files.
+
+## Cite Us
+
+You found our work interesting and useful? Please, don't forget to cite us
+
+```bibtex
+@misc{tassel2023semiconductor,
+      title={Semiconductor Fab Scheduling with Self-Supervised and Reinforcement Learning}, 
+      author={Pierre Tassel and Benjamin Kovács and Martin Gebser and Konstantin Schekotihin and Patrick Stöckermann and Georg Seidel},
+      year={2023},
+      eprint={2302.07162},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+```
