@@ -76,3 +76,7 @@ You found our work interesting and useful? Please, don't forget to cite us
       primaryClass={cs.AI}
 }
 ```
+
+## License
+
+MIT License
